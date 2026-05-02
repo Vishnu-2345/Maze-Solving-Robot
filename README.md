@@ -82,5 +82,38 @@ The robot successfully navigates from a start point to a goal without prior know
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Maze-Solving-Robot.git
+git clone https://github.com/Vishnu-2345/Maze-Solving-Robot.git
 cd Maze-Solving-Robot
+### 🔹 2. Install Dependencies
+
+Make sure ROS2 and required packages are installed.
+
+```bash
+sudo apt update
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+### 🔹 3. Build Workspace
+
+```bash
+colcon build
+### 🔹 4. Source Workspace
+
+```bash
+source install/setup.bash
+### 🔹 5. Launch Simulation
+
+```bash
+ros2 launch autonomous_tb3 tb3_maze_navigation.launch.py
+### 🔹 6. Run Maze Solver
+
+Open a **new terminal**:
+
+```bash
+source install/setup.bash
+ros2 run autonomous_tb3 maze_solver.py
+### 🔹 7. Expected Output
+
+- Robot navigates maze autonomously  
+- Shortest path computed using A*  
+- Real-time visualization in RViz2  
+- Simulation running in Gazebo  
