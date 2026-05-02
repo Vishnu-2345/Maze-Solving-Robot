@@ -1,0 +1,97 @@
+[0.049s] Invoking command in '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/src/autonomous_tb3 -DCMAKE_INSTALL_PREFIX=/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3
+[1.186s] -- The C compiler identification is GNU 11.4.0
+[2.085s] -- The CXX compiler identification is GNU 11.4.0
+[2.115s] -- Detecting C compiler ABI info
+[2.317s] -- Detecting C compiler ABI info - done
+[2.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.327s] -- Detecting C compile features
+[2.328s] -- Detecting C compile features - done
+[2.334s] -- Detecting CXX compiler ABI info
+[2.472s] -- Detecting CXX compiler ABI info - done
+[2.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.481s] -- Detecting CXX compile features
+[2.482s] -- Detecting CXX compile features - done
+[2.532s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.802s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.074s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[3.077s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.246s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.265s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.302s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.795s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.147s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.151s] -- Added test 'lint_cmake' to check CMake code style
+[4.154s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.160s] -- Added test 'xmllint' to check XML markup files
+[4.164s] -- Configuring done
+[4.178s] -- Generating done
+[4.187s] -- Build files have been written to: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3
+[4.206s] Invoked command in '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/src/autonomous_tb3 -DCMAKE_INSTALL_PREFIX=/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3
+[4.207s] Invoking command in '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3 -- -j2 -l2
+[4.412s] Built target ament_cmake_python_copy_script
+[4.782s] running egg_info
+[4.782s] creating script.egg-info
+[4.782s] writing script.egg-info/PKG-INFO
+[4.785s] writing dependency_links to script.egg-info/dependency_links.txt
+[4.785s] writing top-level names to script.egg-info/top_level.txt
+[4.786s] writing manifest file 'script.egg-info/SOURCES.txt'
+[4.792s] reading manifest file 'script.egg-info/SOURCES.txt'
+[4.792s] writing manifest file 'script.egg-info/SOURCES.txt'
+[4.826s] Built target ament_cmake_python_build_script_egg
+[4.845s] Invoked command in '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3 -- -j2 -l2
+[4.859s] Invoking command in '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3
+[4.872s] -- Install configuration: ""
+[4.873s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/environment/pythonpath.sh
+[4.873s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/environment/pythonpath.dsv
+[4.873s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script-0.0.0-py3.10.egg-info
+[4.874s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script-0.0.0-py3.10.egg-info/top_level.txt
+[4.874s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.875s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script-0.0.0-py3.10.egg-info/PKG-INFO
+[4.875s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.875s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script
+[4.875s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script/maze_solver.py
+[4.875s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script/occupancy_grid_pub.py
+[4.875s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script/__init__.py
+[4.876s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script/entity_spawner.py
+[4.937s] Listing '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script'...
+[4.937s] Compiling '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script/__init__.py'...
+[4.937s] Compiling '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script/entity_spawner.py'...
+[4.937s] Compiling '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script/maze_solver.py'...
+[4.937s] Compiling '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/local/lib/python3.10/dist-packages/script/occupancy_grid_pub.py'...
+[4.944s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/lib/autonomous_tb3/occupancy_grid_pub.py
+[4.944s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/lib/autonomous_tb3/entity_spawner.py
+[4.944s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/lib/autonomous_tb3/maze_solver.py
+[4.944s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//config
+[4.944s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//config/tb3_world_2d_map.yaml
+[4.945s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//config/turtlebot3_cartographer.lua
+[4.946s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//config/maze_map.yaml
+[4.947s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//config/maze_map.pgm
+[4.949s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//config/tb3_world_2d_map.pgm
+[4.951s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//config/tb3_nav_params.yaml
+[4.952s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//config/tb3_nav.rviz
+[4.953s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//launch
+[4.953s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//launch/mapping.launch.py
+[4.954s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//launch/navigation.launch.py
+[4.954s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//launch/tb3_maze_navigation.launch.py
+[4.955s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//worlds
+[4.955s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//worlds/tb3_maze_world
+[4.956s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//worlds/tb3_maze_world/model.config
+[4.957s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3//worlds/tb3_maze_world/model.sdf
+[4.958s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/ament_index/resource_index/package_run_dependencies/autonomous_tb3
+[4.959s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/ament_index/resource_index/parent_prefix_path/autonomous_tb3
+[4.959s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/environment/ament_prefix_path.sh
+[4.959s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/environment/ament_prefix_path.dsv
+[4.960s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/environment/path.sh
+[4.960s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/environment/path.dsv
+[4.960s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/local_setup.bash
+[4.961s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/local_setup.sh
+[4.961s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/local_setup.zsh
+[4.962s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/local_setup.dsv
+[4.962s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/package.dsv
+[4.962s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/ament_index/resource_index/packages/autonomous_tb3
+[4.964s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/cmake/autonomous_tb3Config.cmake
+[4.964s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/cmake/autonomous_tb3Config-version.cmake
+[4.965s] -- Installing: /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/install/autonomous_tb3/share/autonomous_tb3/package.xml
+[4.969s] Invoked command in '/home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pes2ug23cs702/maze_solver_project/Autonomous-Maze-Solving-Turtlebot3-Simulation/build/autonomous_tb3
